@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <Folder Include="Services\Abstractions\" />
-    <Folder Include="Configs\" />
     <Folder Include="Controllers\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
