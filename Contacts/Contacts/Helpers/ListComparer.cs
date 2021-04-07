@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contacts.Configs
+namespace Contacts.Helpers
 {
-    public class Config
+    public class ListComparer
     {
-        public LangConfig Lang { get; set; }
     }
 }
