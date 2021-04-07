@@ -8,6 +8,7 @@ namespace Contacts.Services.Abstractions
 {
     public interface ILocalizationService
     {
-
+        string GetAlphabetForCurrentCulture();
+        string GetAlhpabetByCulture(string cultureName);
     }
 }
