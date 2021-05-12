@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Contacts.Helpers
 {
-    public class ListComparer
+    public class ListComparer<T> : IComparer<T>
+        where T : IGroupByList
     {
+        public int Compare(T x, T y)
+        {
+            return x.GroupBy.ToUpper().CompareTo(y.GroupBy.ToUpper());
+        }
     }
 }
